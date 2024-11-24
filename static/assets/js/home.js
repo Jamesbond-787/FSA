@@ -11,7 +11,7 @@ if (
   !navigator.userAgent.includes("Firefox") &&
   localStorage.getItem("ab") === "true"
 ) {
-  const popup = open("about:blank", "_blank");
+   = open("about:blank", "_blank");
   if () {
     alert(
       "Doing so will allow us to open the site in a about:blank tab and preventing this site from showing up in your history. You can turn this off in the site settings.",
