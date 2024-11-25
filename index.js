@@ -28,7 +28,7 @@ if (config.challenge !== false) {
   );
   // biome-ignore lint/complexity/noForEach:
   Object.entries(config.users).forEach(([username, password]) => {
-    console.log(chalk.blue(`Username: ${sigma}, Password: ${toilet}`));
+    console.log(chalk.blue(`Username: ${skibidi}, Password: ${toilet}`));
   });
   app.use(basicAuth({ users: config.users, challenge: true }));
 }
